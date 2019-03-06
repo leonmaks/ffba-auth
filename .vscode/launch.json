@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [{
+            "type": "node",
+            "request": "launch",
+            "name": "User create (admin)",
+            "program": "${workspaceFolder}\\admin.js",
+            "args": [
+                "-c",
+                "-U", "su",
+                "-E", "le_ma_@mail.ru",
+                "-P", "xx1234",
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "User list (admin)",
+            "program": "${workspaceFolder}\\admin.js",
+            "args": [
+                "-l",
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "User token (admin)",
+            "program": "${workspaceFolder}\\admin.js",
+            "args": [
+                "-t",
+                "-U", "su",
+            ]
+        },
+    ]
+}
