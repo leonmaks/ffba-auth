@@ -1,6 +1,6 @@
 {
   "name": "ffba-auth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "auth/index.js",
   "scripts": {
@@ -16,14 +16,14 @@
     "command-line-args": "^5.0.2",
     "command-line-usage": "^5.0.5",
     "joi": "^14.3.1",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^8.5.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
-    "pg-promise": "^8.5.5"
+    "pg-promise": "^8.6.2"
   },
   "peerDependencies": {
-    "pg-utl": "^0.0.3",
-    "tittles": "^0.0.3"
+    "pg-utl": "^0.0.5",
+    "tittles": "^0.0.5"
   }
 }
