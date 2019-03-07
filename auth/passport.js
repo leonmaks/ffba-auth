@@ -20,8 +20,9 @@ let db
 //
 passport.use(new JwtStrategy({
 
-  jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
-  // jwtFromRequest: ExtractJwt.fromHeader("authorization"),
+  // jwtFromRequest: ExtractJwt.fromAuthHeader(),
+  // jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
+  jwtFromRequest: ExtractJwt.fromHeader("authorization"),
   secretOrKey: JWT_SECRET,
 
 }, async (payload, done) => {
