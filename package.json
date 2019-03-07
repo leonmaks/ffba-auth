@@ -1,6 +1,6 @@
 {
   "name": "ffba-auth",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "auth/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "pg-promise": "^8.6.2"
   },
   "peerDependencies": {
-    "pg-utl": "^0.0.6",
+    "pg-utl": "^0.0.7",
     "tittles": "^0.0.5"
   }
 }

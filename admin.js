@@ -1,7 +1,5 @@
 "use strict"
 
-// require("module-alias/register")
-
 const commandLineArgs = require("command-line-args")
 const commandLineUsage = require("command-line-usage")
 
